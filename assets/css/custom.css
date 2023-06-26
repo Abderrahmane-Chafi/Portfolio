@@ -1,0 +1,22 @@
+.logo {
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #18bc9c ;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+  }
+  
+  .initial {
+    font-size: 18px;
+    margin-left: -6px;
+  }
+  
