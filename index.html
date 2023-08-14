@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="assets/css/custom.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="assets/icon/logo.ico" type="image/x-icon">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    
 </head>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SMGNP12KHN"></script>
 <script>
@@ -25,6 +27,7 @@
 
   gtag('config', 'G-SMGNP12KHN');
 </script>
+
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
         <div class="container">
@@ -139,19 +142,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-5 mb-lg-0">
-                    <p class="text-uppercase mb-2 fw-bold" style="font-size: 25px;"><i class="bi bi-geo-alt"></i>Location</p>
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <p class="text-uppercase mb-2 fw-bold text-primary" style="font-size: 25px;"><i class="bi bi-geo-alt"></i>Location</p>
+                    <p> <a class="text-light" style="text-decoration:none;" href="https://www.google.com/maps/place/Casablanca/@33.5724032,-7.6693944,12z/data=!3m1!4b1!4m6!3m5!1s0xda7cd4778aa113b:0xb06c1d84f310fd3!8m2!3d33.5731104!4d-7.5898434!16zL20vMDIyYl8?entry=ttu"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
                         <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
                         <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                      </svg> Casablanca, Morocco</p>
+                      </svg> Casablanca, Morocco</a></p>
                 </div>
                 <div class="col-md-4 mb-5 mb-lg-0">
-                    <p class="text-uppercase mb-2 fw-bold" style="font-size: 25px;">Around the Web</p>
+                    <p class="text-uppercase mb-2 fw-bold text-primary" style="font-size: 25px;">Around the Web</p>
                     <ul class="list-inline">
                         <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" target="_blank" href="https://www.linkedin.com/in/abderrahmane-chafi-493476224/"><i class="fa fa-linkedin fa-fw"></i></a></li>
                         <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" target="_blank" href="https://github.com/charon-dev"><i class="fa fa-github fa-fw"></i></a></li>
                         <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button"  href="mailTo:abderrahmanedev@gmail.com"><i class="fa fa-envelope fa-fw"></i></a></li>
-
+                        <li class="list-inline-item"><a class="btn btn-outline-light text-center btn-social rounded-circle" role="button" id="copyButton"><i class="fa fa-phone fa-fw"></i></a></li>                        
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -165,20 +168,18 @@
     </footer>
     <div class="text-center text-white copyright py-4">
         <div class="container"><small>Carefully crafted by my own hands ©&nbsp; 2023</small></div>
-    </div>   
+    </div> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/freelancer.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <script>
-        function openNewTab(link) {
-          event.preventDefault();
-          window.open(link, '_blank');
-        }       
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="assets/js/custom.js"></script>
     <script>
         AOS.init();
     </script>
+ 
 </body>
 
 </html>
