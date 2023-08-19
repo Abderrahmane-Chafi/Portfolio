@@ -35,3 +35,11 @@
   height: 100%;
   z-index: 0; /* Place particles behind the text */
 }
+
+@media (max-width: 767px) {
+  /* Hide elements with AOS animations on mobile devices */
+  [data-aos] {
+      opacity: 1 !important; /* Make sure the element is visible */
+      transform: none !important; /* Remove any transformations */
+  }
+}

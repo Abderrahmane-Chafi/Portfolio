@@ -172,7 +172,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <script src="assets/js/custom.js"></script>
     <script>
-        AOS.init();
+        if (window.innerWidth < 768) {
+          AOS.init({ disable: true }); // Disable AOS library
+        }
+        else
+            AOS.init();
     </script>
     <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
