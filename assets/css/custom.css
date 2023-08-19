@@ -20,3 +20,18 @@
     margin-left: -6px;
   }
   
+  /* Position the text container on top of the particles container */
+.text-container {
+  position: relative;
+  z-index: 1; /* Display the text above the particles */
+}
+
+/* Set the particles container to cover the entire header */
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Place particles behind the text */
+}
