@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://chafi-abderrahman.engineer/sitemap.xml
